@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kitchen",
+    "name": "Kitchen",
+    "sortOrder": 1
+  },
+  {
+    "id": "doors",
+    "name": "Doors",
+    "sortOrder": 2
+  },
+  {
+    "id": "bedroom",
+    "name": "Bedroom",
+    "sortOrder": 3
+  },
+  {
+    "id": "office",
+    "name": "Office",
+    "sortOrder": 4
+  },
+  {
+    "id": "hardware",
+    "name": "Hardware",
+    "sortOrder": 5
+  },
+  {
+    "id": "finishing",
+    "name": "Finishing",
+    "sortOrder": 6
+  }
+]

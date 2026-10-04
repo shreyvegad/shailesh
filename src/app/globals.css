@@ -1,0 +1,126 @@
+:root {
+  --bg: #f2f1ee;
+  --ink: #22201c;
+  --wood: #6e3e1c;
+  --line: #d9d5ce;
+  --card: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font:
+    16px/1.5 "Segoe UI",
+    system-ui,
+    sans-serif;
+}
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 120px;
+}
+h1 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+.sub {
+  color: #6b665e;
+  margin: 0 0 20px;
+}
+label {
+  display: block;
+  font-size: 13px;
+  color: #6b665e;
+  margin-bottom: 2px;
+}
+input,
+select {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font: inherit;
+  background: #fff;
+}
+input:focus,
+select:focus,
+button:focus-visible {
+  outline: 2px solid var(--wood);
+  outline-offset: 1px;
+}
+.row {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  margin-top: 12px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+.btn {
+  border: 0;
+  border-radius: 6px;
+  padding: 9px 16px;
+  font: inherit;
+  cursor: pointer;
+  background: var(--wood);
+  color: #fff;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn.alt {
+  background: #fff;
+  color: var(--wood);
+  border: 1px solid var(--wood);
+}
+.btn.del {
+  background: #fff;
+  color: #a32;
+  border: 1px solid #d9b0a8;
+  padding: 6px 10px;
+}
+.rt {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 10px;
+}
+.tot {
+  font-weight: 600;
+  font-size: 18px;
+  white-space: nowrap;
+}
+.bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--wood);
+  color: #fff;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.empty {
+  color: #6b665e;
+  text-align: center;
+  padding: 36px 0;
+}

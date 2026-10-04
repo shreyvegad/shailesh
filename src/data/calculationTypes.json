@@ -1,0 +1,20 @@
+[
+  {
+    "id": "itemPrice",
+    "label": "Item Price",
+    "formula": "qty",
+    "inputs": ["qty"]
+  },
+  {
+    "id": "squareFeet",
+    "label": "Square Feet",
+    "formula": "area",
+    "inputs": ["height", "width", "qty"]
+  },
+  {
+    "id": "runningFeet",
+    "label": "Running Feet",
+    "formula": "area",
+    "inputs": ["height", "width", "qty"]
+  }
+]
